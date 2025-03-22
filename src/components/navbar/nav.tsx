@@ -13,7 +13,7 @@ export default function Navigation() {
 
   return (
     <div
-      className={`relative h-[94px] w-full ${bgColor} flex items-center justify-between overflow-hidden px-6`}
+      className={`relative h-[74px] w-full ${bgColor} flex items-center justify-between overflow-hidden px-6`}
     >
       {/* Header with Title and Icon */}
       <header className='top-8 left-10 flex items-center gap-2'>
