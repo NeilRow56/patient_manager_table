@@ -18,7 +18,7 @@ export default function Navigation() {
       {/* Header with Title and Icon */}
       <header className='top-8 left-10 flex items-center gap-2'>
         <div>
-          <FaUserDoctor className='text-xl text-blue-600' />
+          <FaUserDoctor className='bg-primary h-10 w-10 rounded-md p-1 text-xl text-white' />
         </div>
         <h1 className='font-poppins text-2xl font-semibold'>
           Med <span className='font-normal'>Manager</span>

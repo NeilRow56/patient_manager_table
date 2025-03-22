@@ -21,7 +21,7 @@ export default function SearchInput() {
         onChange={e => setQuery(e.target.value)}
         type='text'
         placeholder='Search by first or last name...'
-        className='placeholder:-slate-100 h-10 w-80 border-none text-slate-800 shadow-none'
+        className='h-10 w-80 border-none text-slate-800 placeholder-slate-100 shadow-none dark:text-slate-200'
       />
       {/* If the query is filled after getting rid from the white space */}
       {/* show the close icon, and when it is clicked, update the query state */}
